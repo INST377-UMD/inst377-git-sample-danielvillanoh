@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Lab 2 Page 1</title>
+        <style>
+            body {
+                background-color: aqua;
+            }
+
+            #done {
+                background-color: magenta;
+                margin: 15px;
+            }
+           #done:hover {
+                background-color: rgb(163, 156, 56);
+            }
+            .customTextBox {
+                margin: 10px;
+                font-size: larger;
+            }
+        </style>
+    </head>
+
+    <body>
+    <h1>INST377 - Lab 2 - Page 1</h1>
+    
+    <form name ="contactForm" method="get" action = "INST377-Lab2-Page2.html">
+        <!---Name Field-->
+        <div class = "customTextBox">
+        <label for ="name">Name: </label>
+        <input type = "text" id = "fullName">
+
+        <br><br>
+
+        <!---Email Field-->
+        <label for = "email">Email: </label>
+        <input type = "email" id = "fullEmail" required>
+
+        <br><br>
+        </div>
+
+
+        <!---Submit Button-->
+        <input type = "submit" id = "done">
+        
+
+    </form>
+
+    </body>
+
+
+</html>
